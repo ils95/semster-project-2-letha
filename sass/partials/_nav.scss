@@ -1,0 +1,77 @@
+nav {
+  background: getColour(dark-grey);
+
+  .logo h1 {
+    color: getColour(beige);
+  }
+
+  .info-banner {
+    background: getColour(black);
+    color: getColour(beige);
+    font-size: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+  }
+
+  .navbar-line1 {
+    background: getColour(dark-grey);
+    color: getColour(beige);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .navbar-line2 {
+    background: getColour(dark-grey);
+    color: getColour(beige);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+
+  .navbar-line2 a {
+    color: getColour(beige);
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .navbar-line2 a.active {
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+
+  .login {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .login a {
+    color: getColour(beige);
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  #logout {
+    border: none;
+    background: none;
+    color: getColour(beige);
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .navbar-line2 ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar-line2 li {
+    margin: 0 3vw;
+  }
+}

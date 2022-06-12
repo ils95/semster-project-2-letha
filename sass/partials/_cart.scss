@@ -1,0 +1,16 @@
+.cart {
+  max-width: 600px;
+  max-height: 200px;
+  margin: auto;
+  position: fixed;
+  left: 50px;
+  bottom: 100px;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  a {
+    text-decoration: underline;
+  }
+}

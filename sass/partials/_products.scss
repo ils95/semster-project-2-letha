@@ -1,0 +1,49 @@
+.featured-products {
+  background: getColour(beige);
+  margin: 0;
+  padding: 20px 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.products {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+
+  .products-box {
+    background: #faeee5;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .products-box h4 {
+    margin-top: 10px;
+  }
+
+  .products-box a {
+    text-decoration: underline;
+  }
+
+  .product-image {
+    background-size: cover;
+    height: 150px;
+  }
+
+  i {
+    background: #c50005;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    cursor: pointer;
+  }
+}

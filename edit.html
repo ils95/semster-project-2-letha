@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fc594f08a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tough - Edit product</title>
+</head>
+<body>
+    <nav>
+        
+    </nav>
+    <main>
+        <h2>Admin</h2>
+        <h3>Edit product</h3>
+        <div class="loading">Loading product...</div>
+            
+            <form class="edit-form">
+                
+                <div class="message-container"></div>
+
+                <div>
+                    <label for="title">Title</label>
+                    <input id="title" />
+                </div>
+                <div>
+                    <label for="price">Price</label>
+                    <input id="price" />
+                </div>
+                <div>
+                    <label for="description">Description</label>
+                    <textarea id="description"></textarea>
+                </div>
+                <div>
+                    <label for="image">Image url</label>
+                    <input id="image" />
+                </div>
+                <div>
+                    <label for="featured">Featured product</label>
+                    <input type="checkbox" id="featured" />
+                </div>
+                <input id="id" type="hidden" />
+                <div>
+                    <button>Edit product</button>
+                </div>
+            </form>
+            <div class="delete-container">
+                
+            </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/edit.js" type="module"></script>
+</body>
+</html>

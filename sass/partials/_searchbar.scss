@@ -1,0 +1,13 @@
+.searchbar {
+  background: getColour(dark-grey);
+  padding: 10px;
+
+  .filter {
+    width: 95%;
+    max-width: 1000px;
+    border: none;
+    display: block;
+    padding: 1vw 2vw;
+    margin: 0 auto;
+  }
+}

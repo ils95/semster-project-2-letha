@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fc594f08a6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tough - Admin</title>
+</head>
+<body>
+    <nav>
+        
+    </nav>
+    <main>
+        <h2>Admin</h2>
+
+        <div class="add-form">
+            <h3 class="form-title">Add product</h3>
+            <form>
+                <div class="message-container"></div>
+
+                <div>
+                    <label for="title">Title</label>
+                    <input id="title" />
+                </div>
+                <div>
+                    <label for="price">Price</label>
+                    <input id="price" />
+                </div>
+                <div>
+                    <label for="description">Description</label>
+                    <textarea id="description"></textarea>
+                </div>
+                <div>
+                    <label for="image">Image url</label>
+                    <input id="image" />
+                </div>
+                <div>
+                    <label for="featured">Featured product</label>
+                    <input type="checkbox" id="featured" />
+                </div>
+                <button>Add</button>
+            </form>
+        </div>
+        <div class="products">
+            Loading...
+        </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/admin.js" type="module"></script>
+</body>
+</html>

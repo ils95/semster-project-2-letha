@@ -1,0 +1,13 @@
+$font-primary: "Helvetica", sans-serif;
+
+$colours: (
+  black: #121212,
+  dark-grey: #3d3d3d,
+  grey: #959595,
+  beige: #faeee5,
+  red: #c50005,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour);
+}
